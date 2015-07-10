@@ -31,6 +31,16 @@ namespace CodeEvalEasy
 
             var lpp2 = new LargestPrimePalindrome(num2);
             Console.WriteLine(lpp2.LargestPP);
+
+            Console.WriteLine();
+            Console.WriteLine("Sum of Primes Test");
+            var sop = new SumofPrimes(1000);
+            Console.WriteLine("Sum : {0}", sop.Sum());
+
+            Console.WriteLine();
+            Console.WriteLine("Reverse Words Test");
+            var rw = new ReverseWords("Hello World");
+            Console.WriteLine("{0}", rw.ReversedWords);
         }
          
      
